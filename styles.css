@@ -16,6 +16,25 @@ body {
     line-height: 2rem;
 }
 
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #222429; 
+  border-radius: 10px;
+}
+
+
+
 ul {
     list-style-type: none;
 }
