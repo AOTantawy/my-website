@@ -1,6 +1,6 @@
 .level-one-header, 
 .level-two-header {
-    font-weight: lighter !important;
+    font-weight: lighter;
     letter-spacing: 0.5rem;
 }
 
@@ -11,9 +11,9 @@
 
 .name-title .profile-pic {
     border-radius: 100%;
+    margin: 15% auto 1%;
     height: 200px;
     width: 200px;
-    margin: 15% auto 1%;
 }
 
 .name-title .level-one-header {
@@ -23,4 +23,28 @@
 
 .name-title .level-two-header {
     font-size:  1.8rem;
+}
+
+
+@media (max-width: 750px){
+    
+    .level-one-header, 
+    .level-two-header {
+        letter-spacing: 0;
+    }
+
+    .name-title .profile-pic {
+        margin: 25% auto 5%;
+    }
+
+  .name-title .level-one-header {
+        margin: 3% auto 2%;
+        font-size: 1.7rem;
+        font-weight: bolder;
+    }
+
+    .name-title .level-two-header {
+        font-weight:bold;
+        font-size: 1.4rem;
+    }
 }
