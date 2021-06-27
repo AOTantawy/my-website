@@ -60,7 +60,7 @@ ul {
 }
 
 .paragraph,
-li {
+.skills-list-items {
     font-size: 1.2rem;
     margin: 1% auto 2%;
     letter-spacing: 0.1rem;
@@ -109,7 +109,7 @@ li {
     }
 
     .paragraph,
-    .li {
+    .skills-list-items {
         font-size: 1rem;
     }
 
@@ -118,3 +118,4 @@ li {
     }
 
 }
+

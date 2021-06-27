@@ -1,0 +1,41 @@
+.footer {
+    width: 100%;
+}
+
+.footer .separator {
+    height: 2px;
+    width: 100%;
+    background-color: #222429;
+    margin: 2% auto 1%;
+}
+
+.footer .footer-container {
+    margin: auto;
+    width: 50%;
+}
+
+.footer .social-media-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer li {
+    margin: 2%;
+    min-width: 40px;
+}
+
+.footer .icon {
+    background-color: white;
+    width: 32px;
+    height: auto;
+}
+
+.footer .icon:hover {
+    opacity: 0.5;
+}
+
+.footer .copy-rights {
+   text-align: center;
+   margin: 1% auto 3%;
+}

@@ -36,7 +36,7 @@ const addSkillsAsHTML = () => {
 const convertArraytoHTMLStr = (arr) => {
     let html = "";
     arr.forEach(item => {
-        html += `<li>${item}</li>`;
+        html += `<li class="skills-list-items">${item}</li>`;
     });
     return html;
 }

@@ -32,8 +32,8 @@
 
 .nav-bar-items li{
     margin: auto 0;
-    width: 15%;
     min-width: 150px;
+    text-align: center;
 }
 
 .nav-bar .nav-link {
