@@ -1,3 +1,14 @@
+/*Initial Styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    color: #222429;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
 }
