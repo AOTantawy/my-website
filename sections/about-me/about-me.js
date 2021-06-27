@@ -4,9 +4,9 @@ const aboutMe = () => {
     const section = document.createElement("section");
     section.classList.add("about-me");
     const html = `
-        <div class="about-me-img">
-            <img src="/about-me.jpg" alt="unsplash desk background">
-            <h4 class="level-two-header">About Me</h4>
+        <div class="banner">
+            <img src="/sections/about-me/about-me.jpg" alt="unsplash desk background" class="banner-img">
+            <h4 class="level-two-header banner-text">About Me</h4>
        </div>
        <p class="paragraph">
         In 2016 I started my career after joining the faculty of computers and information system Cairo University; back in this

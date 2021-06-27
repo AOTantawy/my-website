@@ -13,9 +13,14 @@ body {
     line-height: 2rem;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .level-one-header, 
-.level-two-header {
-    letter-spacing: 0.5rem;
+.level-two-header,
+.level-three-header {
+    letter-spacing: 0.4rem;
     font-weight: lighter;
 }
 
@@ -24,30 +29,65 @@ body {
 }
 
 .level-two-header {
-    font-size:  1.8rem;
+    font-size:  2rem;
 }
 
-.paragraph {
+.level-three-header {
+    font-size: 1.5rem;
+}
+
+.paragraph,
+li {
     font-size: 1.2rem;
     margin: 1% auto 2%;
     letter-spacing: 0.1rem;
     width: 75%;
 }
 
+.banner {
+    position: relative;
+}
+
+.banner-img {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.banner-text {
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
 
 @media (max-width: 750px){
     
     .level-one-header, 
-    .level-two-header {
-        letter-spacing: 0;
+    .level-two-header,
+    .level-three-header {
+        letter-spacing: 0.1rem;
     }
 
     .level-one-header {
-        font-size: 1.7rem;
+        font-size: 2rem;
         font-weight: bold;
     }
 
     .level-two-header {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
+
+    .level-three-header {
+        font-size: 1.5rem;
+    }
+
+    .paragraph,
+    .li {
+        font-size: 1rem;
+    }
+
 }
