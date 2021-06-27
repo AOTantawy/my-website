@@ -90,4 +90,8 @@ li {
         font-size: 1rem;
     }
 
+    .banner-img {
+        height: 100px;
+    }
+
 }
