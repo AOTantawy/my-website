@@ -6,6 +6,9 @@
     box-sizing: content-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -19,8 +22,9 @@ ul {
 
 .level-one-header, 
 .level-two-header,
-.level-three-header {
-    letter-spacing: 0.4rem;
+.level-three-header,
+.nav-link {
+    letter-spacing: 0.3rem;
     font-weight: lighter;
 }
 
@@ -64,7 +68,7 @@ li {
 }
 
 
-@media (max-width: 750px){
+@media (max-width: 1000px){
     
     .level-one-header, 
     .level-two-header,

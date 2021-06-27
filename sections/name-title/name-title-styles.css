@@ -14,7 +14,7 @@
     margin: 3% auto 2%;
 }
 
-@media (max-width: 750px){
+@media (max-width: 1000px){
     .name-title .profile-pic {
         margin: 25% auto 5%;
     }

@@ -3,6 +3,8 @@ const aboutMe = () => {
     console.log("hello man");
     const section = document.createElement("section");
     section.classList.add("about-me");
+    section.id = "about-section"
+    section.setAttribute("name","About Me")
     const html = `
         <div class="banner">
             <img src="/sections/about-me/about-me.jpg" alt="unsplash desk background" class="banner-img">

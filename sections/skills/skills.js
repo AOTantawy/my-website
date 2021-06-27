@@ -3,6 +3,8 @@ import data from "./skills-data.js";
 const skills = () => {
     const section = document.createElement("section");
     section.classList.add("skills");
+    section.id = "skills-section";
+    section.setAttribute("name","Skills");
     let html = `<div class="banner">
             <img src="/sections/skills/skills.jpg" alt="unsplash skills" class="banner-img">
             <h4 class="level-two-header banner-text">Skills</h4>
