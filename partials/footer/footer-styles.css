@@ -9,10 +9,6 @@
     margin: 2% auto 1%;
 }
 
-.footer .footer-container {
-    margin: auto;
-    width: 50%;
-}
 
 .footer .social-media-list {
     display: flex;
@@ -33,6 +29,10 @@
 
 .footer .icon:hover {
     opacity: 0.5;
+}
+
+.footer .paragraph {
+    width: 100%;
 }
 
 .footer .copy-rights {
