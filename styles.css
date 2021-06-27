@@ -12,3 +12,42 @@ body {
     color: #222429;
     line-height: 2rem;
 }
+
+.level-one-header, 
+.level-two-header {
+    letter-spacing: 0.5rem;
+    font-weight: lighter;
+}
+
+.level-one-header {
+    font-size: 3.5rem;
+}
+
+.level-two-header {
+    font-size:  1.8rem;
+}
+
+.paragraph {
+    font-size: 1.2rem;
+    margin: 1% auto 2%;
+    letter-spacing: 0.1rem;
+    width: 75%;
+}
+
+
+@media (max-width: 750px){
+    
+    .level-one-header, 
+    .level-two-header {
+        letter-spacing: 0;
+    }
+
+    .level-one-header {
+        font-size: 1.7rem;
+        font-weight: bold;
+    }
+
+    .level-two-header {
+        font-size: 1.4rem;
+    }
+}
