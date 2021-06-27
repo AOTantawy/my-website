@@ -12,8 +12,28 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: white;
     color: #222429;
     line-height: 2rem;
+}
+
+@keyframes fade-dark {
+    from {
+        background-color: white;
+        color: #222429;
+    }
+    to {
+        background-color: #222429;
+        color: white;
+    }
+}
+
+.dark-mode {
+    animation-name: fade-dark;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
 }
 
 /*Scrollbar*/
@@ -83,6 +103,16 @@ ul {
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
+}
+
+.icon {
+    background-color: inherit;
+    width: 32px;
+    height: auto;
+}
+
+.icon:hover {
+    opacity: 0.5;
 }
 
 

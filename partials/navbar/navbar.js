@@ -6,7 +6,7 @@ const navbar = () => {
     navbarElement.classList.add("nav-bar");
     let html = `        
             <div class="nav-bar-container">
-            <a href="#"><img src="/partials/navbar/logo.png" alt="ahmed osama logo transparent background" class="nav-logo"></a>
+            <a href="#"><img src="/partials/navbar/logo.png" alt="ahmed osama logo transparent background" class="icon nav-logo"></a>
             <ul class="nav-bar-items">`;
     
     allSections.forEach(section => {
@@ -15,6 +15,7 @@ const navbar = () => {
 
     html += `
         </ul>
+        <a href="javascript:void(0);"><img src="/partials/navbar/sun.png" alt="dark mode icon" class="icon" id="enable-dark"/></a>
         </div>`;
     
     navbarElement.innerHTML = html;

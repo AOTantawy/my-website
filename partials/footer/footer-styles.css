@@ -21,21 +21,12 @@
     min-width: 40px;
 }
 
-.footer .icon {
-    background-color: white;
-    width: 32px;
-    height: auto;
-}
-
-.footer .icon:hover {
-    opacity: 0.5;
-}
-
 .footer .paragraph {
     width: 100%;
 }
 
 .footer .copy-rights {
    text-align: center;
-   margin: 1% auto 3%;
+   margin: 1% auto 0;
+   padding-bottom: 3%;
 }

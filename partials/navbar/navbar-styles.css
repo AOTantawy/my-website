@@ -1,6 +1,6 @@
 
 .nav-bar {
-    background-color: white;
+    background-color: inherit;
     position: fixed;
     padding-top: 1%;
     width: 100%;
@@ -43,6 +43,27 @@
 
 .nav-bar .nav-link:hover {
     text-decoration: underline;
+}
+
+@keyframes rotate-fade {
+    from {
+        transform: rotate(0deg);
+        opacity: 1;
+    } 
+    to {
+        transform: rotate(45deg);
+        opacity: 0.5;
+    }
+}
+
+
+
+.animate-dark-mode {
+    animation-name: rotate-fade;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
 }
 
 @media (max-width:1000px) {
