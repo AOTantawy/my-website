@@ -1,80 +1,83 @@
-
 .nav-bar {
-    background-color: inherit;
-    position: fixed;
-    padding-top: 1%;
-    width: 100%;
-    height: 7%;
-    min-height: 50px;
-    z-index: 999;
-    top: 0;
+  background-color: inherit;
+  position: fixed;
+  padding-top: 1%;
+  width: 100%;
+  height: 7%;
+  min-height: 50px;
+  z-index: 999;
+  top: 0;
 }
 
 .nav-bar .nav-bar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    width: 75%;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 75%;
 }
 
 .nav-bar .nav-logo {
-    height: auto;
-    width: 50px;
+  height: auto;
+  width: 50px;
 }
 
 .nav-bar .nav-bar-items {
-    display: flex;
-    justify-content: flex-end;
-    width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
 }
 
-.nav-bar-items li{
-    margin: auto 0;
-    min-width: 150px;
-    text-align: center;
+.nav-bar-items li {
+  margin: auto 0;
+  min-width: 150px;
+  text-align: center;
 }
 
 .nav-bar .nav-link {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .nav-bar .nav-link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 @keyframes rotate-fade {
-    from {
-        transform: rotate(0deg);
-        opacity: 1;
-    } 
-    to {
-        transform: rotate(45deg);
-        opacity: 0.5;
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
 }
-
-
 
 .animate-dark-mode {
-    animation-name: rotate-fade;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease;
-    animation-fill-mode: forwards;
+  animation-name: rotate-fade;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
 }
 
-@media (max-width:1000px) {
-    .nav-bar {
-        height: 10%;
-    }
-    
-    .nav-bar .nav-bar-container {
-        justify-content: center;
-    }
-    .nav-bar .nav-bar-items {
-        display: none;
-    }
+.animate-light-mode {
+  animation-name: rotate-fade;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+  animation-play-state: running;
+}
+
+@media (max-width: 1000px) {
+  .nav-bar {
+    height: 10%;
+  }
+
+  .nav-bar .nav-bar-container {
+    justify-content: space-between;
+  }
+  .nav-bar .nav-bar-items {
+    display: none;
+  }
 }

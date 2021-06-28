@@ -1,11 +1,9 @@
-
 const aboutMe = () => {
-    console.log("hello man");
-    const section = document.createElement("section");
-    section.classList.add("about-me");
-    section.id = "about-section"
-    section.setAttribute("name","About Me")
-    const html = `
+  const section = document.createElement("section");
+  section.classList.add("about-me");
+  section.id = "about-section";
+  section.setAttribute("name", "About Me");
+  const html = `
         <div class="banner">
             <img src="/sections/about-me/about-me.jpg" alt="unsplash desk background" class="banner-img">
             <h4 class="level-two-header banner-text">About Me</h4>
@@ -25,8 +23,8 @@ const aboutMe = () => {
        <p class="paragraph">Currently, I develop some projects to sharpen my skills and read more about architecture, and later I will dive into OOD
         and design patterns.</p>
     `;
-    section.innerHTML = html;
-    document.querySelector("body").appendChild(section);
-}
+  section.innerHTML = html;
+  document.querySelector("body").appendChild(section);
+};
 
 export default aboutMe;

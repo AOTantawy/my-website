@@ -1,32 +1,31 @@
 .footer {
-    width: 100%;
+  width: 100%;
 }
 
 .footer .separator {
-    height: 2px;
-    width: 100%;
-    background-color: #222429;
-    margin: 2% auto 1%;
+  height: 2px;
+  width: 100%;
+  background-color: #222429;
+  margin: 2% auto 1%;
 }
 
-
 .footer .social-media-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer li {
-    margin: 2%;
-    min-width: 40px;
+  margin: 2%;
+  min-width: 40px;
 }
 
 .footer .paragraph {
-    width: 100%;
+  width: 100%;
 }
 
 .footer .copy-rights {
-   text-align: center;
-   margin: 1% auto 0;
-   padding-bottom: 3%;
+  text-align: center;
+  margin: 1% auto 0;
+  padding-bottom: 3%;
 }
