@@ -112,6 +112,11 @@ ul {
   height: auto;
 }
 
+.icon:link,
+.icon:visited {
+  opacity: 1;
+}
+
 .icon:hover {
   opacity: 0.5;
 }
