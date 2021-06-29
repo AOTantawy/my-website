@@ -10,6 +10,7 @@ skills();
 footer();
 navbar();
 
+const body = document.querySelector("body");
 const darkMode = document.querySelector("#enable-dark");
 const icons = document.querySelectorAll(".icon path");
 let isDark = false;
@@ -22,7 +23,7 @@ darkMode.onclick = () => {
     darkMode.classList.add("animate-light-mode");
   }
 
-  document.querySelector("body").classList.toggle("dark-mode");
+  body.classList.toggle("dark-mode");
   icons.forEach((icon) => {
     icon.style.fill = isDark ? "#222429" : "white";
   });

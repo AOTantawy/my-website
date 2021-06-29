@@ -56,6 +56,16 @@ body {
   border-radius: 10px;
 }
 
+/*Text Selection*/
+::selection {
+  background: #8cbabc;
+  color: #222429;
+}
+::-moz-selection { /* Firefox */
+  background: #8cbabc;
+  color: #222429;
+}
+
 ul {
   list-style-type: none;
 }
