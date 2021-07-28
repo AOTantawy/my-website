@@ -1,4 +1,9 @@
-/*Initial Styles*/
+/** colors **/ 
+:root {
+  --light: #ffffff;
+  --dark: #222429;
+  --selection: #8cbabc;
+}
 
 * {
   margin: 0;
@@ -12,19 +17,19 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: white;
-  color: #222429;
+  background-color: var(--light);
+  color: var(--dark);
   line-height: 2rem;
 }
 
 @keyframes fade-dark {
   from {
-    background-color: white;
-    color: #222429;
+    background-color: var(--light);
+    color: var(--dark);
   }
   to {
-    background-color: #222429;
-    color: white;
+    background-color: var(--dark);
+    color: var(--light);
   }
 }
 
@@ -36,7 +41,7 @@ body {
   animation-fill-mode: forwards;
 }
 .dark-mode::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: var(--light);
 }
 
 /*Scrollbar*/
@@ -52,18 +57,18 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #222429;
+  background: var(--dark);
   border-radius: 10px;
 }
 
 /*Text Selection*/
 ::selection {
-  background: #8cbabc;
-  color: #222429;
+  background: var(--selection);
+  color: var(--dark);
 }
 ::-moz-selection { /* Firefox */
-  background: #8cbabc;
-  color: #222429;
+  background: var(--selection);
+  color: var(--dark);
 }
 
 ul {
@@ -113,7 +118,7 @@ ul {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--light);
 }
 
 .icon {

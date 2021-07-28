@@ -14,18 +14,22 @@ const body = document.querySelector("body");
 const themeColor = document.querySelector('meta[name="theme-color"]');
 const darkMode = document.querySelector("#enable-dark");
 const icons = document.querySelectorAll(".icon path");
-const darkColorCode = "#222429";
-const lightColorCode = "#ffffff";
+const darkColorCode = getComputedStyle(
+  document.documentElement
+).getPropertyValue("--dark");
+const lightColorCode = getComputedStyle(
+  document.documentElement
+).getPropertyValue("--light");
 let isDark = false;
 
 darkMode.onclick = () => {
   darkMode.style["pointer-events"] = "none";
   if (!isDark) {
     darkMode.classList.add("animate-dark-mode");
-    themeColor.setAttribute("content",darkColorCode);
+    themeColor.setAttribute("content", darkColorCode);
   } else {
     darkMode.classList.add("animate-light-mode");
-    themeColor.setAttribute("content",lightColorCode);
+    themeColor.setAttribute("content", lightColorCode);
   }
 
   body.classList.toggle("dark-mode");
