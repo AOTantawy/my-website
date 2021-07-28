@@ -11,21 +11,26 @@ footer();
 navbar();
 
 const body = document.querySelector("body");
+const themeColor = document.querySelector('meta[name="theme-color"]');
 const darkMode = document.querySelector("#enable-dark");
 const icons = document.querySelectorAll(".icon path");
+const darkColorCode = "#222429";
+const lightColorCode = "#ffffff";
 let isDark = false;
 
 darkMode.onclick = () => {
   darkMode.style["pointer-events"] = "none";
   if (!isDark) {
     darkMode.classList.add("animate-dark-mode");
+    themeColor.setAttribute("content",darkColorCode);
   } else {
     darkMode.classList.add("animate-light-mode");
+    themeColor.setAttribute("content",lightColorCode);
   }
 
   body.classList.toggle("dark-mode");
   icons.forEach((icon) => {
-    icon.style.fill = isDark ? "#222429" : "white";
+    icon.style.fill = isDark ? darkColorCode : lightColorCode;
   });
   isDark = !isDark;
 };
