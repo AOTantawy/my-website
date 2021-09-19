@@ -1,0 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+.site-header {
+  background: white;
+  box-shadow: 0 0 1px 0 rgba(168, 168, 168, 0.2),
+    0 0 5px 0 rgba(168, 168, 168, 0.2);
+  position: sticky;
+  top: 0;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #222429;
+}
