@@ -9,26 +9,18 @@ permalink: /about/
 <img style="float: right;border-radius:10px;" width="200px" height="200px" src="/assets/img/ahmedosama-profile.jpg" alt="ahmed osama profile picture">
 - I'm Ahmed Osama Tantawy
 - Born on Oct 17, 1998
+- Based in Cairo, Egypt
 - Graduated from faculty of computers and artificial intelligence, Cairo university
-- work as a Back-end Engineer
-
 
 ## My story
 
-In 2016 I started my career after joining the faculty of computers and information system Cairo University; back in this
-time I have been introduced to some of the programming languages like c++, java, and python and also deep dive into
-fundamental concepts like data structures, algorithms, OOP, and much more, after gaining some experience in programming
-in general and competitive programming in particular, I participate in ACM (programming competition).
+In 2016, I wrote my first program in c++; right it was a simple program but it opened my eyes to a new world where the machine can do fascinating things since then I explored then fundamentals of computer science and dug deeper into them through learning more about data structures, algorithms, object-oriented programming (OOP) after founding a good base of knowledge and skill the practical part came through actively using competitive programming websites like (Codeforces, HackerRank, and SPOJ ), and participating in programming competitions like ACM.
 
-The second milestone in my career path was when I decided to learn web development, so after capturing some core
-concepts like client/server architecture, Protocols, and APIs, then I learned different languages and frameworks like
-Node.js Express.js and Python Django those for web services while for database servers I used SQL databases like MYSQL
-and NoSQL databases like MongoDB.
+After gaining some knowledge and experience in programming; I started to explore web development by learning how the web works and building some websites from scratch, but life wasn't pinky all the time as I realized that web development is a large spectrum and I had to specialize in one thing so after lots of hustling I decided to deep dive in the back-end engineering.
 
-Currently, I develop some projects to sharpen my skills and read more about architecture, and later I will dive into OOD
-and design patterns.
+As I explored many back-end programming languages -like Python, JavaScript- and frameworks -like Django, Node.js, and Express.js - I decided to continue with Java and Spring framework as my first choice, so currently I sharpen my Java and Spring skills then I will deep dive into some advanced topics like architecture patterns and database concepts to build a good reputation in the tech industry.
 
-## Skills 
+## Skills
 
 ##### Languages:
 
@@ -38,7 +30,7 @@ and design patterns.
 
 `Node.js` `Express.js` `Django`
 
-#### Databases: 
+#### Databases:
 
 `MySql` `MongoDB`
 
@@ -46,11 +38,10 @@ and design patterns.
 
 `REST`
 
-
 #### IT Methodologies
 
 `SCRUM` `Kanban`
 
-#### Other skills: 
+#### Other skills:
 
 `React.Js` `Redux` `SASS`
