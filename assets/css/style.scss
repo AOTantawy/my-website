@@ -22,3 +22,20 @@
 ::-webkit-scrollbar-thumb {
   background: #222429;
 }
+
+.search > input {
+  border: none;
+  border-bottom: #222429 1px solid;
+  color: #222429;
+  outline: none;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+#results-container {
+  list-style-type: none;
+}
+
+#results-container li {
+  margin-top: 5px;
+}
