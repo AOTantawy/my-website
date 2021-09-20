@@ -4,9 +4,11 @@ author:
   email: aotantawy@gmail.com
 
 description: > # this means to ignore newlines until "show_excerpts:"
-  Made with ❤️ by Ahmed Osama 
+  Made with ❤️ by Ahmed Osama
 
 show_excerpts: true # set to true to show excerpts on the homepage
+
+paginate: 10
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -16,7 +18,7 @@ minima:
   # generate social links in footer
   social_links:
     twitter: aotantawy
-    github:  aotantawy
+    github: aotantawy
     linkedin: aotantawy
     # devto: jekyll
     # dribbble: jekyll
@@ -55,5 +57,6 @@ minima:
 theme: minima
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
