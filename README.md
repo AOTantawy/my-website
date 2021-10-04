@@ -17,3 +17,9 @@
 1. Navigate to project directory `cd blog-master`
 1. Run `bundle install` & `bundle exec jekyll serve`
 1. Open `http://127.0.0.1:4000` in your browser
+
+
+## References
+
+- [Jekyll](https://jekyllrb.com/)
+- [Minima theme](https://github.com/jekyll/minima)
