@@ -1,5 +1,10 @@
 # Ahmed Osama Tantawy's blog
 
+![MIT license badge](https://img.shields.io/github/license/aotantawy/blog)
+![No maintenance intended badge](http://unmaintained.tech/badge.svg)
+![Repo Size](https://img.shields.io/github/repo-size/aotantawy/blog)
+![Language count](https://img.shields.io/github/languages/count/aotantawy/blog)
+
 ## Installation process -locally-:
 
 ### Prerequisites:
